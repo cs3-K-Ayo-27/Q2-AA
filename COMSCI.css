@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "Glacial Indifference";
+    src: url("https://db.onlinewebfonts.com/t/5fbc824fc20dd8012386aae646012bf2.eot");
+    src: url("https://db.onlinewebfonts.com/t/5fbc824fc20dd8012386aae646012bf2.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5fbc824fc20dd8012386aae646012bf2.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5fbc824fc20dd8012386aae646012bf2.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/5fbc824fc20dd8012386aae646012bf2.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5fbc824fc20dd8012386aae646012bf2.svg#Glacial Indifference")format("svg");
+}
+
+@font-face{
+    font-family: "Gotham";
+    src: url("https://db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.eot");
+    src: url("https://db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.svg#Gotham")format("svg");
+}
+ 
+        body { 
+            background-image: url(background.jpg);
+            background-repeat: no-repeat;
+            background-position: fixed;
+            background-size: cover;
+            background-size: 1685px 863px;
+            z-index: 1;
+            background-color: #80a5c3;
+            margin-bottom:-100px;
+
+        } 
+        
+        .bluecolor {
+            background-color: rgb(64, 149, 239);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+            opacity: 0.4;
+            width: 1685px;
+            height: 865px;
+}
+
+       
+        .logo{
+            height: 80px;
+            float: left;
+            margin-left: 35px;
+            margin-top: 30px;
+        }
+
+        .home{
+            
+
+            float: right;
+            margin-right: 1090px;
+            font-family: "Glacial Indifference";
+            margin-top: 34px;
+            text-decoration:none;
+        }
+            .texthome {
+                text-decoration: none;
+                color: white;
+            }
+           
+            
+
+
+        
+         .cs{
+             height: 90px;
+             float: right;
+             margin-right: -240px;
+             font-family: "Glacial Indifference";
+             margin-top: 34px;
+             color: white
+
+        }
+
+        .titleweb{
+            font-family: "Gotham";
+            line-height: 0.4;
+            font-size: 0px;
+            text-align: left;
+            padding-left: 130px;
+            padding-top: 0.1px;
+        }
+
+        p {
+            font-size: 25px; 
+        }
+        
+        .right-align {
+            position: absolute;
+            right: 20px;
+            font-size: 65px;
+            font-weight: bold;
+            margin-top: 250px;
+            font-family: "Gotham";
+            margin-right: 70px;
+            color: rgb(236, 236, 241);
+            transition: text-shadow
+            
+          }
+          
+          .right-align:active {
+            text-shadow: 0 0 10px rgb(3, 22, 88); 
+          }
+          
+            .pisay {
+            position: absolute;
+            margin-left: 10px;
+            float: left;
+            top: 250px;
+            left: 90px;
+            border: 5px dashed white;
+            font-weight: bold; 
+            }
+
+            .trisha{
+            position: absolute;
+            top: 920px;
+            right: 110px;
+            float: right;  
+            border: 5px dashed white;
+            height: 450px;
+            width: 350px;
+            
+            }
+            
+            .p1{
+            position: absolute;
+			top: 910px;
+			text-align: justify;
+			font-family: "Glacial Indifference";
+			font-size: 20px;
+            left: 100px;
+            width: 1070px;
+       
+            
+			}
+
+            .charlz{
+            position:absolute;
+            width: 500px; 
+			height: 100;
+			top: 1440px;
+			left: 100px;
+            float: left; 
+            margin-bottom: 40px; 
+            border: 5px dashed white;
+           
+            }
+            
+            .p2{
+            position: absolute;
+            top: 1420px;
+            right: 110px;
+            margin-top: 10px;
+			margin-bottom: 40px;
+			text-align: justify;
+			font-family: "Glacial Indifference";
+			font-size: 20px;
+            width: 915px;
+            }
+
+        
+            .kath{
+            position: absolute;
+            float: right;
+			top: 1900px;
+            right: 110px;
+            height: 300px;
+            width: 300px;
+            border: 5px dashed white;
+    
+            }
+
+            .p3{
+            position:absolute;
+			text-align: justify;
+			font-family: "Glacial Indifference";
+			font-size: 20px;
+            left: 100px;
+            top: 1870px;
+            width:1120px;
+            }
+
+
+            .line {
+                position:absolute;
+                bottom:-2010px;
+                left:0px;
+                height: 3px;
+                width: 1000px;
+                background-color:white;
+            }
+            
+    
+
+
